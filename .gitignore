@@ -1,0 +1,36 @@
+# Build outputs
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.lst
+
+# Local provisioning secrets
+.env.local
+.env.*.local
+app/inc/exarcia_build_config.h
+
+# STM32CubeIDE / Eclipse
+.project
+.cproject
+.settings/
+.buildpath
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+*.swp
+*.swo
+*~
+*.bak
+
+# Python
+__pycache__/
+*.pyc
